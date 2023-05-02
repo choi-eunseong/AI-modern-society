@@ -1,0 +1,31 @@
+*{font-family : 'Nanum Pen Script', cursive;}
+body{
+    margin:0;
+}
+a{
+    color : black;
+    text-decoration: none;
+}
+h1 {
+    font-size : 60px;
+    text-align: center;
+    border-bottom:2px solid gray;
+    margin:0;
+    padding:20px;
+}
+#grid ul{
+    border-right:2px solid gray;
+    width:105px;
+    margin:0;
+    padding:32px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 170px 1fr;
+}
+#article{
+    padding-left : 25px
+}
+#active{
+    font-weight: bold;
+}
